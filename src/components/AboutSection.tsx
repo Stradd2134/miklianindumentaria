@@ -2,11 +2,11 @@ import { Heart, Sparkles, Star } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="nosotras" className="py-24 bg-card">
+    <section id="nosotros" className="py-24 bg-card">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center">
           <p className="font-body text-sm uppercase tracking-[0.3em] text-primary mb-4">
-            Sobre la marca
+            Sobre nosotros
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-8">
             Transformamos ideas en{" "}

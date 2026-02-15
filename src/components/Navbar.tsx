@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const links = [
     { label: "Inicio", href: "#inicio" },
-    { label: "Nosotras", href: "#nosotras" },
+    { label: "Nosotros", href: "#nosotros" },
     { label: "Productos", href: "#productos" },
     { label: "Cómo funciona", href: "#como-funciona" },
     { label: "Galería", href: "#galeria" },
@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#inicio" className="font-display text-2xl font-bold text-foreground tracking-tight">
-          Tu Prenda
+          MikLian Indumentaria
         </a>
 
         {/* Desktop */}
@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="https://wa.me/5491100000000"
+          href="https://wa.me/543513711417"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-flex px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-medium hover:opacity-90 transition-opacity"
@@ -69,7 +69,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="https://wa.me/5491100000000"
+                href="https://wa.me/543513711417"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-medium"

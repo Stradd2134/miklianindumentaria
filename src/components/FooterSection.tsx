@@ -12,7 +12,7 @@ const FooterSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="text-center md:text-left">
-            <h3 className="font-display text-xl font-bold mb-4">Tu Prenda</h3>
+            <h3 className="font-display text-xl font-bold mb-4">MikLian Indumentaria</h3>
             <p className="font-body text-sm opacity-70">
               Ropa personalizada con amor. Cada prenda cuenta una historia única.
             </p>
@@ -24,8 +24,8 @@ const FooterSection = () => {
               <a href="mailto:hola@tuprenda.com" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">
                 <Mail className="w-4 h-4" /> hola@tuprenda.com
               </a>
-              <a href="https://wa.me/5491100000000" target="_blank" rel="noopener noreferrer" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">
-                <Phone className="w-4 h-4" /> +54 9 11 0000-0000
+              <a href="https://wa.me/543513711417" target="_blank" rel="noopener noreferrer" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">
+                <Phone className="w-4 h-4" /> +54 351 371-1417
               </a>
             </div>
           </div>
@@ -48,7 +48,7 @@ const FooterSection = () => {
 
         <div className="border-t border-primary-foreground/10 pt-8 text-center">
           <p className="font-body text-xs opacity-50">
-            © {new Date().getFullYear()} Tu Prenda. Todos los derechos reservados.
+            © {new Date().getFullYear()} MikLian Indumentaria. Todos los derechos reservados.
           </p>
         </div>
       </div>
