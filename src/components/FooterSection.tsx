@@ -21,7 +21,7 @@ const FooterSection = () => {
           <div className="text-center">
             <h3 className="font-display text-lg font-semibold mb-4">Contacto</h3>
             <div className="flex flex-col gap-3 items-center">
-              <a href="mailto:hola@tuprenda.com" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">
+              <a href="mailto:hola@tuprenda.com" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">miklianind@gmail.com
                 <Mail className="w-4 h-4" /> hola@tuprenda.com
               </a>
               <a href="https://wa.me/543513711417" target="_blank" rel="noopener noreferrer" className="font-body text-sm opacity-70 hover:opacity-100 transition-opacity flex items-center gap-2">
@@ -32,14 +32,14 @@ const FooterSection = () => {
 
           <div className="text-center md:text-right">
             <h3 className="font-display text-lg font-semibold mb-4">Seguinos</h3>
-            <div className="flex gap-4 justify-center md:justify-end">
+            <div className="gap-4 justify-center border-0 flex-row flex items-start md:justify-end">
               <a
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center hover:bg-primary-foreground/10 transition-colors"
-                aria-label="Instagram"
-              >
+                aria-label="Instagram">
+
                 <Instagram className="w-5 h-5" />
               </a>
             </div>
@@ -52,8 +52,8 @@ const FooterSection = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default FooterSection;
